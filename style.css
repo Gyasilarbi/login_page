@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 109vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(IMG_2402.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+.login{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    height: 50vh;
+}
+
+.q h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-size: 30px;
+}
+
+.q p{
+    font-family: 'Times New Roman';
+    word-spacing: 2px;
+    text-align: center;
+}
+
+.w a{
+    font-family: 'Times New Roman';
+    word-spacing: 2px;
+    text-decoration: none;
+    color: black;
+}
+
+.q a{
+    color: orange;
+    animation: fadeIn 1s ease-in-out;
+    text-decoration: none;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.login label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login p{
+    text-align: center;
+}
+
+.login input[type="text"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+
+.login input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+
+.login input[type="submit"]{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(IMG_2402.JPG);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding: 10px 70px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s;
+    margin-top: 10px;
+}
+
+@keyframes bounce{
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-15px);
+    }
+    60%{
+        transform: translateY(-10px);
+    }
+}
+
+.login input[type="submit"]:hover{
+    animation: bounce 0.5s;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.social-links a{
+    margin: 0 10px;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.social-links p{
+    text-align: center;
+    font-weight: lighter;
+    color: rgb(113, 108, 108);
+}
+
+.fa-twitter{
+    color: black;
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-whatsapp {
+    color: green;
+}
+
+.fa-linkedin {
+    color: #007bb5;
+    
+}
+
+
+
+
